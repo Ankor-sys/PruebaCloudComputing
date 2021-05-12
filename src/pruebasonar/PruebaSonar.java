@@ -21,7 +21,7 @@ public class PruebaSonar {
         System.out.println("La suma de esos 2 numeros es: " + variable);*/
         
         anidamientoCiclos();
-        
+        suma ();
         usandoMetodos(8,2);
     }
     
@@ -83,6 +83,17 @@ public class PruebaSonar {
         System.out.println("Usando el metodo POW de la librería Math tenemos que la potencia es igual a: " + potencia);
     }
     */
+    
+    public static void suma (){
+        int resultado = 0;
+        int Num1 = 10;
+        int Num2 = 10;
+        
+        resultado =  Num1 + Num2;
+        
+        System.out.println("El resultado de la Suma es : " + resultado);
+        
+    }
 }
 
 
