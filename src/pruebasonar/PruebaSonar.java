@@ -23,6 +23,7 @@ public class PruebaSonar {
         anidamientoCiclos();
         suma ();
         usandoMetodos(8,2);
+        resta ();
         //Linea nueva desde computadora de Sebas
     }
     
@@ -95,6 +96,16 @@ public class PruebaSonar {
         System.out.println("El resultado de la Suma es : " + resultado);
         
     }
+    
+    public static void resta (){
+       int resultado = 0;
+       int Num1 = 25;
+       int Num2 = 5;
+       resultado = Num1 - Num2;
+        System.out.println("El resultado de la resta es : " + resultado);
+        
+    }
+    
 }
 
 
